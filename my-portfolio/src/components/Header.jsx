@@ -43,13 +43,13 @@ export default function Header() {
             Sajjad.Dev
           </h1>
 
-          {/* 🌞 Dark/Light Toggle */}
-         
+
+
 
           {/* 🖥️ Desktop Menu */}
           <ul className="hidden md:flex space-x-8 text-lg font-medium text-gray-900 dark:text-white">
             
-            {["Home", "About", "Skills", "Services", "Contact"].map((item) => (
+            {["Home", "About", "Services", "Skills", "Contact"].map((item) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
@@ -135,14 +135,14 @@ export default function Header() {
         </ul>
 
         {/* 🌐 Social Icons */}
-        <div className="absolute bottom-2 w-full flex justify-center space-x-6 text-2xl text-yellow-300">
-          <a href="#" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
+        <div className="absolute bottom-2 w-full flex justify-center  space-x-6 text-2xl text-yellow-300">
+          <a href="https://github.com/betanni" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
             <FaGithub />
           </a>
-          <a href="#" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
+          <a href="https://www.linkedin.com/in/muhammad-sajjad-4aa2212b7/" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
             <FaLinkedin />
           </a>
-          <a href="#" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
+          <a href="https://mail.google.com/mail/u/0/#inbox" className="hover:text-white transition-all duration-300 transform hover:-translate-y-1">
             <FaEnvelope />
           </a>
         </div>
